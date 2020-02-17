@@ -1,4 +1,4 @@
-*,html,body 
+*,html,body
 {
     margin:0;
     padding:0;
@@ -12,21 +12,21 @@ header
     z-index: 1;
     width: 100%;
     transition: all 0.2s ease;
-    
+
 }
 
-ul 
+ul
 {
    list-style: none;
 
-    
+
 }
-ul li 
+ul li
 {
     display: inline-block;
     font-size: 90%
-    
-    
+
+
 }
 
 .secondary
@@ -35,40 +35,40 @@ ul li
     box-shadow: 0px 0px 17px 0px;
     transition: all 0.5s ease-in;
 }
-header nav 
+header nav
 {
     float: right;
-    
+
 
 }
 
 
 
-.logo img 
+.logo img
 {
    margin-left: -150px;
     width: 300px;
     margin-top: 24px;
 }
 
-header nav ul li a 
+header nav ul li a
 {
     padding-right: 0px;
     font-weight: bolder;
     color: white;
     padding-left: 15px;
-    font-size: 13px;
+    font-size: 15px;
     transition: 0.6s ease;
-    
-    
+
+
 }
 
-header nav ul li a:hover 
+header nav ul li a:hover
 {
     color: red;
     text-decoration: none;
     transition: 0.6s ease;
-    
+
 }
 
 header nav ul li a:focus
@@ -76,17 +76,17 @@ header nav ul li a:focus
     color: red;
     text-decoration: none;
     transition: 0.4s;
-    
+
 }
 
 header nav ul li a:
 {
     color: red;
     text-decoration: none;
-    
+
 }
 
-.img1 
+.img1
 {
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//images/456536.jpg);
     background-size: 100% 100%;
@@ -105,7 +105,7 @@ header nav ul li a:
     text-align: center;
 }
 
-.slider h2 
+.slider h2
 {
     font-weight: bold;
     margin-top:340px;
@@ -138,7 +138,7 @@ header nav ul li a:
 {
     background-color: orange;
     color: white;
-    
+
 }
 .slider a.btn-full:hover
 {
@@ -162,7 +162,7 @@ header nav ul li a:
     background-size: 100% 100%;
 }
 
-.img3 i 
+.img3 i
 {
     padding-bottom: 8px;
 }
@@ -193,12 +193,12 @@ header nav ul li a:
 {
     content:"",
     position: absolute;
-    
+
     top: 100%;
     left: 100%;
     margin-top: 25;
     margin-left: 38%;
-    width: 25%;    
+    width: 25%;
     height: 1px;
     background-color: orange;
     z-index: 1;
@@ -212,20 +212,20 @@ header nav ul li a:
 
 .col-sm-4
 {
-   
+
     margin-top: 15%;
-    
-    
+
+
 }
 
 .intro-block
 {
-    
+
     position: relative;
     background: #f7f7f7;
     text-align:center;
     padding: 70px 25px 40px;
-    
+
 }
 .intro-block:hover
 {
@@ -235,11 +235,11 @@ header nav ul li a:
        -ms-transition: 0.3s ease-in;
        -o-transition: 0.3s ease-in;
        transition: 0.3s ease-in;
-    
+
 }
 
 .intro-block .span-color {
-    
+
     position:absolute;
     top: -31px;
     left:50%;
@@ -256,9 +256,9 @@ header nav ul li a:
     border-radius: 50%;
     box-shadow: 0px 0px 0px 10px #FFEAB5;
     color: white;
-    
+
 }
-    
+
 .intro-block:hover .fa, .intro-block.active .fa
 {
     background:white;
@@ -278,13 +278,13 @@ header nav ul li a:
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom:15px;
-    
+
 }
 
 .intro-block p
 {
     color: dimgrey;
-    
+
 }
 
 .intro-block:hover h3,.intro-block:hover p
@@ -293,7 +293,7 @@ header nav ul li a:
 }
 
 .feature {
-    
+
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(..//images/456536.jpg);
     background-position:center;
     background-attachment:fixed;
@@ -316,7 +316,7 @@ header nav ul li a:
 {
     position: block;
     margin: auto;
-    
+
     width: 320px;
     padding: 30px 0px;
     text-align:center;
@@ -330,19 +330,19 @@ header nav ul li a:
     display: inline-block;
 }
 
-    
+
 .feature-block
 {
-   
-    
+
+
     position: relative;
     margin-top: 70px;
     display: inline-block;
 
 
-    
+
 }
-    
+
 .feature-block
 {
     clear:both;
@@ -366,7 +366,7 @@ header nav ul li a:
        -o-transition: 0.3s ease-in;
 }
 
-  
+
 .feature-block:hover .single-feature
 {
     border-color: white;
@@ -382,7 +382,7 @@ header nav ul li a:
     border: 2px solid orange;
     background: white;
     color: orange;
-    
+
 }
 
 .single-feature:nth-of-type(even)
@@ -415,7 +415,7 @@ header nav ul li a:
 .more-feature-area title
 {
     margin-top:
-    
+
 }
 
 .more-feature-area .title h2
@@ -429,11 +429,11 @@ header nav ul li a:
     color: darkgrey;
 }
 
-.more-feature-area 
+.more-feature-area
 {
     padding: 80px 80px 0;
     margin-bottom: -50px;
-    
+
 }
 
 
@@ -466,7 +466,7 @@ header nav ul li a:
        -moz-transition: 0.3s ease-in;
        -ms-transition: 0.3s ease-in;
        -o-transition: 0.3s ease-in;
-    
+
 }
 
 .feature-icon
@@ -495,9 +495,9 @@ header nav ul li a:
     font-weight: 700;
     text-transform: uppercase;
     float: left;
-    
-    
-    
+
+
+
 }
 
 .feature-details p
@@ -506,8 +506,8 @@ header nav ul li a:
     float: left;
     clear: both;
     text-align: left;
-    
-    
+
+
 }
 
 .more-feature-area img
@@ -542,9 +542,9 @@ header nav ul li a:
     height: 200px;
     border-radius: 100%;
     border: 2px solid orange;
-        
+
 }
-    
+
 .reviews .sub-heading
 {
     margin-bottom: 40px;
@@ -561,18 +561,18 @@ header nav ul li a:
 }
 .tableto img
 {
-    
+
     position: relative;
     top: 192px;
-    
-    
+
+
 }
 .tableto1 img
 {
-    
+
     position: relative;
     top: -50px;
-    
+
 }
 
 .team-area
@@ -582,7 +582,7 @@ header nav ul li a:
 
 .team-area .sub-heading
 {
-    
+
 }
 
 .team-area .title h2
@@ -648,7 +648,7 @@ header nav ul li a:
 .team-description
 {
     background-color:#f5f5f5;
-    
+
 }
 
 .team-social-network
@@ -671,7 +671,7 @@ header nav ul li a:
     border-radius: 50%;
     border: 3px solid orange;
     padding-top: 9px;
-    
+
 }
 
 .team-area .sub-heading
@@ -682,7 +682,7 @@ header nav ul li a:
 .team-block{
     text-align: center;
     position: relative;
-    
+
 }
 
 .team-block:hover .team-description
@@ -694,7 +694,7 @@ header nav ul li a:
        -moz-transition: 0.3s ease-in;
        -ms-transition: 0.3s ease-in;
        -o-transition: 0.3s ease-in;
-    
+
 }
 
 .team-block:hover .team-title h3,
@@ -729,7 +729,7 @@ header nav ul li a:
        -ms-transition: 0.6s ease-in;
        -o-transition: 0.6s ease-in;
        -o-transition: 0.6s ease-in;
-    
+
 }
 
 .team-block
@@ -750,7 +750,7 @@ header nav ul li a:
 .download
 {
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(..//images/barcelona.jpg);
-    
+
     background-attachment: fixed;
     padding: 100px 0px;
     background-size: cover;
@@ -839,7 +839,7 @@ margin-right: 10px;
 .contact-area .ul li
 {
     overflow: hidden;
-    
+
 }
 
 .contact-area .ul li:last-child
@@ -854,7 +854,7 @@ margin-right: 10px;
     width: 15px;
     font-size: 30px;
     color: orange;
-   
+
 }
 
 .contact-adress i
@@ -873,14 +873,14 @@ margin-right: 10px;
 .contact-adress span
 {
     font-size: 12px;
-    
+
 }
 
 .contact-adress h4
 {
     position: relative;
     top: -2px;
-    
+
 }
 .contact-block
 {
@@ -931,14 +931,15 @@ margin-right: 10px;
 
 .google-map
 {
-    height: 600px;
+    height: 700px;
     width: 100%;
     top: -40px;
-    
-    
-    
-    
-    
+    margin-bottom: -40px;
+
+
+
+
+
 
 }
 
@@ -946,8 +947,8 @@ margin-right: 10px;
 {
     height: 200px;
     width: 100%;
-    margin-top: -20px;
-    margin-bottom: -50px;
+    margin-bottom: -80px;
+    margin-top: 30px;
 }
 
 .contact-icon
@@ -959,57 +960,57 @@ margin-right: 10px;
 
 .contact-icon i
 {
-    
+
     text-align: center;
-    height: 60px;
-    width: 60px;
-    padding-top: 13px;
+    height: 70px;
+    width: 70px;
+    padding-top: 15px;
     border-radius: 50%;
-    border: 4px solid #F4EBE6;
+    border: 8px solid #FFEAB5;
     background: orange;
-    
-   
-    margin: 0 10px; 
+
+
+    margin: 0 10px;
     margin-top: 20px;
     transition: 0.4s ease-in;
       -webkit-transition: 0.4s ease-in;
        -moz-transition: 0.4s ease-in;
        -ms-transition: 0.4s ease-in;
        -o-transition: 0.4s ease-in;
-    
+
 }
 
 .contact-icon a
 {
-    font-size: 25px;
+    font-size: 27px;
     color: white;
-     
+
     transition: 0.4s ease-in;
       -webkit-transition: 0.4s ease-in;
        -moz-transition: 0.4s ease-in;
        -ms-transition: 0.4s ease-in;
        -o-transition: 0.4s ease-in;
-    
+
 }
 
 
 .contact-icon:hover i
 {
-    
+
     color: orange;
-    
+
     transition: 0.6s ease-in;
       -webkit-transition: 0.6s ease-in;
        -moz-transition: 0.6s ease-in;
        -ms-transition: 0.6s ease-in;
        -o-transition: 0.6s ease-in;
-    
+
 }
 .contact-icon:hover i
 {
     color: orange;
-    border-color: orange;
-    background-color: #F4EBE6;
+    border-color: #FFEAB5;
+    background-color: white;
     transition: 0.4s ease-in;
       -webkit-transition: 0.4s ease-in;
        -moz-transition: 0.4s ease-in;
@@ -1022,12 +1023,13 @@ margin-right: 10px;
 {
     font-size: 12px;
     color: black;
-    
+
 }
 
 .credentials .sub-heading
 {
     margin-bottom: 50px;
+
 }
 
 .credentials
@@ -1036,9 +1038,12 @@ margin-right: 10px;
 
 }
 
+
 .ending .sub-heading
 {
     margin-top: 10px;
 }
 
-        
+.ending1{
+  height: 300px;
+}
